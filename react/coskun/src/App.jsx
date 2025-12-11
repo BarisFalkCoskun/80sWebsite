@@ -31,19 +31,78 @@ function App() {
 
       {/* Hero Section */}
       <section id="home" className="hero">
+        <div className="sky-bands"></div>
+        <div className="clouds">
+          <div className="cloud cloud-1"></div>
+          <div className="cloud cloud-2"></div>
+          <div className="cloud cloud-3"></div>
+        </div>
         <div className="stars"></div>
+        <div className="moon"></div>
         <div className="shooting-star"></div>
+        <div className="helicopter"></div>
+        <div className="distant-city"></div>
+        <div className="god-rays"></div>
         <div className="sun">
           <div className="sun-reflection"></div>
+          <div className="sun-glare"></div>
         </div>
-        <div className="water"></div>
+        <div className="water">
+          <div className="sailboat"></div>
+          <div className="boat"></div>
+          <div className="jet-ski"></div>
+          <div className="wave wave-1"></div>
+          <div className="wave wave-2"></div>
+          <div className="wave wave-3"></div>
+        </div>
+        <div className="seagulls">
+          <div className="seagull seagull-1"></div>
+          <div className="seagull seagull-2"></div>
+          <div className="seagull seagull-3"></div>
+          <div className="seagull seagull-4"></div>
+        </div>
         <div className="mountains">
           <div className="mountain mountain-1"></div>
           <div className="mountain mountain-2"></div>
           <div className="mountain mountain-3"></div>
         </div>
+        <div className="lighthouse">
+          <div className="lighthouse-beacon"></div>
+        </div>
         <div className="haze"></div>
-        <div className="retro-car"></div>
+        <div className="heat-shimmer"></div>
+        <div className="power-lines"></div>
+        <div className="street-lamp street-lamp-1"></div>
+        <div className="street-lamp street-lamp-2"></div>
+        <div className="retro-car">
+          <div className="car-body"></div>
+          <div className="car-window"></div>
+          <div className="car-wheel car-wheel-front"></div>
+          <div className="car-wheel car-wheel-back"></div>
+          <div className="car-headlight"></div>
+          <div className="car-taillight"></div>
+        </div>
+        <div className="speed-lines">
+          <span></span><span></span><span></span>
+        </div>
+        <div className="beach"></div>
+        <div className="beach-items">
+          <div className="lifeguard-tower"></div>
+          <div className="beach-umbrella"></div>
+          <div className="volleyball-net"></div>
+          <div className="surfboard"></div>
+          <div className="boombox"></div>
+          <div className="roller-skates"></div>
+          <div className="beach-ball"></div>
+        </div>
+        <div className="neon-signs">
+          <div className="neon-sign neon-sign-1">OPEN</div>
+          <div className="neon-sign neon-sign-2">24HR</div>
+          <div className="neon-sign neon-sign-3">MOTEL</div>
+        </div>
+        <div className="vhs-tracking"></div>
+        <div className="crt-overlay"></div>
+        <div className="film-grain"></div>
         <div className="hero-content">
           <h1 className="hero-title">
             <span className="title-main">COSKUN</span>
@@ -81,6 +140,11 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="about">
+        <div className="section-divider">
+          <div className="divider-line"></div>
+          <div className="divider-icon"></div>
+          <div className="divider-line"></div>
+        </div>
         <div className="section-container">
           <h2 className="section-title">About Us</h2>
           <div className="about-content">
